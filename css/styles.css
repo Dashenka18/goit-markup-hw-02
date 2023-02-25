@@ -1,4 +1,142 @@
+/* accent-color #4D5AE5 */
+/* hero-title-buttons #ffffff */
+/* brand-color #2E2F42 */
+/* primary-titles-color #2E2F42  */
+/* hover-color #404BBF */
+/* body-text-color #434455 */
+/* cards-color #F4F4FD */
+/* cloud #F4F4FD */
+/* buttons-2page #E7E9FC */
+
+:root{
+    --accent-color: #4D5AE5;
+    --accent-logo-color: #4D5AE5;
+    --hero-title-buttons: #ffffff;
+    --brand-color: #2E2F42;
+    --primary-titles-color: #2E2F42;
+    --mini-titles-color: #2E2F42;
+    --secondary-titles-color:#2E2F42;
+    --hover-color: #404BBF;
+    --background:#ffffff;
+    --cards-color:#F4F4FD;
+
+}
+
+/* списки-точки */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* body */
 body{
     font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+color:#434455 ;
+}
+
+/* header */
+
+.header{
+    background-color: var(--background);
+}
+
+.header-logo{
+    color: var(--accent-color);
+}
+.logo-color{
+    color: var(--brand-color);
+}
+
+.header-nav{
+
+}
+
+.nav-link{
+    color: var(--brand-color);
+}
+
+.address-link{
+    color: #434455;
+}
+
+
+/* hero */
+.hero{
+    background-color: var(--brand-color);
+}
+
+.hero-title{
+    color: var(--hero-title-buttons);
+}
+
+.btn-hero{
+    color:#ffffff ;
+    background-color:#4D5AE5 ;
+}
+
+/* specifics */
+.specifics{}
+
+.none-title{}
+
+.specifics-list{}
+
+.mini-title{
+    color: var(--mini-titles-color);
+}
+
+.specifics-text{}
+
+/* what are we doing */
+.doing{}
+.primary-title{
+    color: var(--primary-titles-color);
+}
+.doing-img-list{}
+
+/* team, secondary-title, img-dsc */
+
+.team{
+    background-color: #F4F4FD;
+}
+.team-list{}
+.secondary-title{
+    color: var(--secondary-titles-color);
+}
+.img-dsc{
+    color: #434455;
+}
+
+.services-list{}
+/* dsc */
+.dsc{
+    color: var(--cards-color);
+}
+
+/* second page */
+
+.buttons-for-nav{}
+.second-nav{
+color:var(--accent-color);
+background-color: #F4F4FD;
+}
+
+/* footer */
+.basement{
+    background-color: var(--brand-color);
+}
+.basement-logo{
+    color: var(--accent-logo-color);
+}
+
+.basement-second-logo{
+    color: #F4F4FD;
+}
+
+.basement-text{
+    color: #E7E9FC;
 }
