@@ -62,6 +62,9 @@ color:#434455 ;
 .address-link{
     color: #434455;
 }
+.active:hover, .active:focus{
+    color: var(--hover-color);
+}
 
 
 /* hero */
@@ -76,6 +79,10 @@ color:#434455 ;
 .btn-hero{
     color:#ffffff ;
     background-color:#4D5AE5 ;
+}
+.active-btn:hover, .active-btn:focus{
+   color: var(--hero-title-buttons);
+   background-color: var(--hover-color);
 }
 
 /* specifics */
